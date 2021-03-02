@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="build/styles.css">
+    
+    <title>Task Runner Search</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul class="nav_links">
+                <li>
+                    <a href="http://www.halahaz.us">Home</a>
+                </li>
+                <li>
+                    <a href="http://www.halahaz.us/wdv495">WDV495 Page</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+
+        <div class="searchDiv">
+            <h1><i>Task Runner Software</i></h1><br>
+            <ol>
+               <h2>Grunt</h2>
+               <ul>
+                    <li><i>Discuss what the software does and how it does it.</i></li>
+                    <p>
+                        Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as
+                        minification, compilation, unit testing, and linting.
+                        It uses a command-line interface to run custom tasks defined in a file (known as a Gruntfile).
+                        Grunt was created by Ben Alman in 2012 and is written in Node.
+                    </p>
+                    <li><i>Is this software a 'newer' or 'older' technology compared to its peers?</i></li>
+                    <p>
+                        This software is older than Gulp and WebPack, its released in 2012
+                    </p>
+                    <li><i>Discuss how the software adds value to the web development process.</i></li>
+                    <p> Grunt is a tool that allows us to automatically run any set of tasks. Grunt can even wait while you code, pick up changes made to your source code files (CSS, HTML, or JavaScript) and then execute a pre-configured set of tasks every time you save your changes. This way, you are no longer required to manually execute a set of commands in order for the changes to take effect. Grunt does this by wrapping these
+                        processes up into tasks.</p>
+                    <li><i>Discuss how the software fits into the web development process.</i></li>
+                    <p>
+                        Optimize your web images for speed and performance.<br>
+                        Analyze your code for potential errors (often referred to as linting).<br>
+                        Combine your external resources for faster page load times.<br>
+                        Enforce your coding style guides for uniformity and readability throughout your project’s code base.<br>
+                        Compile your CSS from your preprocessor of choice (e.g. Sass and Less).<br> 
+                    </p>
+                    <li><i>Compare the software to similar software tools as far as strengths and weaknesses.</i></li>
+                    <p>
+                        <h2><i>Pros:</i></h2><br>
+                      <h3> Huge ecosystem of plugins to perform various tasks at the same time (over 6010 items in Grunt
+                        plugin registry)</h3> <br>
+
+                        <h2><i>Cons:</i></h2><br>
+                        
+                       <h3>Can become complicated as the configuration grows.</h3> <br>
+                      <h3>Lack of flexibility with uncommon tasks.</h3><br>
+                       <h3>Tend to outdating.</h3> <br>
+                    </p>
+                </ul>
+                <br>
+                <hr><br>
+              <h2>Gulp</h2>
+                <ul>
+                    <li>Discuss what the software does and how it does it.</li>
+                    <p>
+                        Gulp is a cross-platform, streaming task runner that lets developers automate many development
+                        tasks. At a high level, gulp reads files as streams and pipes the streams to different tasks.
+                        These tasks are code-based and use plugins. The tasks modify the files, building source files
+                        into production files.
+                    </p>
+                    <li>Is this software a 'newer' or 'older' technology compared to its peers?</li>
+                    <p>
+                        This software released after Grunt in 18 months, its released in 2013
+                    </p>
+                    <li>Discuss how the software adds value to the web development process.</li>
+                    <p>
+                        Provides minification and concatenation.
+                        Uses pure JavaScript code.
+                        Converts LESS or SASS to CSS compilation.
+                        Manages file manipulation in the memory and enhances speed by using the Node.js platform.
+                    </p>
+                    <li>Discuss how the software fits into the web development process.</li>
+                    <p>Gulp Helps to run front-end tasks and large-scale web applications. Gulp builds system automated
+                        tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
+                        These tasks can be run using Shell or Bash scripts on the command line.</p>
+                    <li>Compare the software to similar software tools as far as strengths and weaknesses.</li>
+                    <p>
+                    <ul class="list">
+                        <h2>Pros:</h2>
+                        <li>Greater clarity of current processes and more control over the flow</li>
+                        <li>Large ecosystem of Gulp plugins, while each of them can accomplish a particular task (over
+                            2770 various plugins for different purposes)</li>
+                        <li>Faster performance due to the stream usage and in-memory operations</li>
+                        <li>Requires less amount of code, comparing to Grunt</li>
+                        <h2>Cons:</h2>
+                        <li> streams and promises are hard to understand</li>
+                    </ul>
+
+                    </p>
+                </ul>
+                <hr><br>
+                    <h2>WebPack</h2>
+                <ul>
+                    <li>Discuss what the software does and how it does it.</li>
+                    <p>Webpack is module bundler, it is a tool that lets you compile JavaScript modules, also known as module bundler. Given a
+                        large number of files, it generates a single file (or a few files) that run your app. It can
+                        perform many operations: helps you bundle your resources.</p>
+                    <li>Is this software a 'newer' or 'older' technology compared to its peers?</li>
+                    <p> Its released in 2014</p>
+                    <li>Discuss how the software adds value to the web development process.</li>
+                    <p>
+                        WebPack offers more flexibility and advanced functionality for modern front-end projects. It
+                        comes with a functional core and can be extended using particular loaders and plugins.
+                        Essentially it is used for bundling JavaScript modules with dependencies into files, but for
+                        complex JavaScript applications with lots of non-code assets (images, fonts, CSS, etc.) it can
+                        provide great benefits.
+                    </p>
+                    <li>Discuss how the software fits into the web development process.</li>
+                    <p>
+                        Helps you bundle your resources.<br>
+                        Watches for changes and re-runs the tasks.<br>
+                        Can run Babel transpilation to ES5, allowing you to use the Latest JavaScript features without
+                        worrying about browser support.<br>
+                        Can convert inline images to data URIs.<br>
+                        Allows you to use require() for CSS files.<br>
+                        Can run a development webserver.<br>
+                        Can handle hot module replacement.<br>
+                        Can split the output files into multiple files, to avoid having a huge js file to load in the
+                        first page hit.<br>
+                        Can perform tree shaking( removing “dead code” from the bundle).<br>
+                    </p>
+                    <li>Compare the software to similar software tools as far as strengths and weaknesses.</li>
+                    <p>
+                    <ul>
+                        <h3>Pros:</h3>
+                        <li>The idea of dependency graph in Webpack ensures easier splitting of code, control over
+                            assets processing, and elimination of dead assets</li>
+                        <li>Multiple options and features right out of the box</li>
+                        <li>Webpack-dev-server supports hot and live reloading</li>
+                        <h3>Cons:</h3>
+                        <li>Initially it is difficult to configure.</li>
+                    </ul>
+
+                    </p>
+                </ul>
+                <hr>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
